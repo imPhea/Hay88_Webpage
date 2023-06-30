@@ -1,0 +1,135 @@
+@media (min-width: 1280px) {
+    .mainBody_2 {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .mainBody_2 {
+        width: 100%;
+        padding: 0 3%;
+    }
+}
+
+@media (min-width: 650px) {
+    .slideBar2 .part2 {
+        gap: 5px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_game {
+        height: calc(100%/7);
+        cursor: pointer;
+    }
+
+    .slideBar2 {
+        width: 100%;
+        height: 700px;
+        margin-bottom: 20px;
+    }
+    .slideBar2 .part1 {
+        width: 60%;
+    }
+    .mt {
+        margin: 10px 0;
+    }
+
+    .mainNavbar {
+        height: 90px;
+    }
+
+    .mainNavbar .logo {
+        height: 100%;
+        margin-right: 15%;
+    }
+
+    .mainBody {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 650px) {
+    .slideBar2 {
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+    }
+
+    .slideBar2 .part2 {
+        gap: 10px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn_game {
+        width: 33%;
+        float: left;
+        cursor: pointer;
+    }
+    .slideBar2 .part1 {
+        width: 80%;
+    }
+    .mt {
+        margin: 5px;
+    }
+
+    .mainNavbar {
+        height: 50px;
+    }
+
+    .mainNavbar .logo {
+        height: 100%;
+        margin-right: 10%;
+    }
+
+    .mainBody {
+        margin-top: 50px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .slideBar2 {
+        height: 500px;
+    }
+
+    footer {
+        font-size: .6em;
+    }
+}
+
+@media (max-width: 444px) {
+    .slideBar2 {
+        height: 430px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slideBar2 {
+        height: 380px;
+    }
+
+    .mainNavbar {
+        height: 40px;
+    }
+
+    .mainBody {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .slideBar2 {
+        height: 350px;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 480px) */
+/* @media (min-width: 481px) and (max-width: 767px) */
+/* @media (min-width: 768px) and (max-width: 1024px) */
